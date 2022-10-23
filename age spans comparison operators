@@ -1,0 +1,43 @@
+Age spans
+
+void main() {
+ 
+  //50 gets 10% discount
+  //60 gets 20% discount
+  //70 gets 30% discount
+  //80 gets 40% discount
+  //90 gets in free
+
+  
+  var age= 90;
+  var name= 'Mark';
+
+  if (age <= 49) 
+  {
+    print('$name, there are no discounts under 50 years old');
+}
+  
+  else if (age >= 50 && age < 59) 
+  {
+    print('$name, you get a 10% discount');
+}
+  
+  else if (age >= 60 && age < 69)
+  {
+    print('$name, you get a 20% discount');
+}
+  
+  else  if (age >= 70 && age < 79) 
+  {
+    print('$name, you get a 30% discount');
+}
+  
+ else  if (age >= 80 && age < 89) 
+  {
+    print('$name, you get a 40% discount');
+ }
+
+  else if (age >= 90)
+  {
+    print('$name, you get in free!');
+}
